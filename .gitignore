@@ -1,0 +1,8 @@
+# File và thư mục tạo ra bởi IntelliJ IDEA
+.idea/
+
+# Thư mục chứa các file compiled output
+out/
+
+# File project file
+*.iml
