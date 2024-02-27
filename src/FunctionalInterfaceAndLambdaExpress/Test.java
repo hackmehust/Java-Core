@@ -24,7 +24,10 @@ public class Test {
         MyInterface myInterface4 = () -> Test.helloWord();
         GenString genString2 = a -> changeName(a);
 
+        GenString genString3 = s -> s.toUpperCase();
+        GenString genString4 = String::toUpperCase;
 
+        System.out.println(genString3.myMethod("Thang"));
     }
 
     public static String helloWord() {
