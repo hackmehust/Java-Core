@@ -39,7 +39,7 @@ public class Test {
     }
 }
 
-@FunctionalInterface
+
 interface MyInterface {
     void myMethod();
 }
